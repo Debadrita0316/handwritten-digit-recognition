@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local data / generated model files
+data/*
+!data/.gitkeep
+
+models/*
+!models/.gitkeep
+
+# Generated results
+results/*.png
+results/*.csv
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Generated trained models
+models/*.pkl

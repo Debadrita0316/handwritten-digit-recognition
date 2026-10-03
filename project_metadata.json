@@ -1,0 +1,26 @@
+{
+  "project": "Handwritten Digit Recognition Using Machine Learning",
+  "source_basis": "Project report uploaded by the user",
+  "dataset": "MNIST",
+  "models": [
+    "MLP Neural Network",
+    "SVM (RBF Kernel)",
+    "KNN (k=5)"
+  ],
+  "train_subset": 10000,
+  "test_subset": 2000,
+  "reported_results": {
+    "MLP Neural Network": {
+      "accuracy_percent": 93.25,
+      "training_time_seconds": 6.23
+    },
+    "SVM (RBF Kernel)": {
+      "accuracy_percent": 93.1,
+      "training_time_seconds": 12.44
+    },
+    "KNN (k=5)": {
+      "accuracy_percent": 89.15,
+      "training_time_seconds": 0.01
+    }
+  }
+}
